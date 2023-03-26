@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <GetTopicsInfoByProjectResponse xmlns="http://tempuri.org/">
+      <GetTopicsInfoByProjectResult>
+        <TopicInfoWrapper>
+          <ParentProjectId>111222</ParentProjectId>
+          <DiscussionId>123456</DiscussionId>
+          <Name>Одна очень интересная дискусия</Name>
+          <Status>Opened</Status>
+          <AuthorId>233551</AuthorId>
+          <Created>2023-03-05</Created>
+          <ReplyCount>10</ReplyCount>
+          <LastReplyAuthor>233551</LastReplyAuthor>
+          <LastReplyDate>2023-03-25</LastReplyDate>
+          <Tasks>
+            <string>string</string>
+            <string>string</string>
+          </Tasks>
+          <Fields>
+            <FieldName>string</FieldName>
+            <FieldId>string</FieldId>
+            <FieldVal>string</FieldVal>
+          </Fields>
+        </TopicInfoWrapper>
+      </GetTopicsInfoByProjectResult>
+    </GetTopicsInfoByProjectResponse>
+  </soap:Body>
+</soap:Envelope>

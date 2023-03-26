@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GovTalkMessage xsi:schemaLocation="http://www.govtalk.gov.uk/schemas/govtalk/govtalkheader http://xmlgw.companieshouse.gov.uk/v1-0/schema/Egov_ch.xsd" xmlns="http://www.govtalk.gov.uk/schemas/govtalk/govtalkheader" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:gt="http://www.govtalk.gov.uk/schemas/govtalk/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+  <EnvelopeVersion>1.0</EnvelopeVersion>
+  <Header>
+    <MessageDetails>
+      <Class>CompanyDetails</Class>
+      <Qualifier>error</Qualifier>
+      <TransactionID>14456553</TransactionID>
+      <GatewayTimestamp>2023-03-26T02:10:08-00:00</GatewayTimestamp>
+    </MessageDetails>
+    <SenderDetails>
+      <IDAuthentication>
+        <SenderID>My_SenderID</SenderID>
+        <Authentication>
+          <Method>CHMD5</Method>
+          <Value>e999e113407884fa410fa2f53bc23952</Value>
+        </Authentication>
+      </IDAuthentication>
+      <EmailAddress>sometest@some.email.address</EmailAddress>
+    </SenderDetails>
+  </Header>
+  <GovTalkDetails>
+    <Keys/>
+	<GovTalkErrors>
+	  <Error>
+	    <RaisedBy>CompanyDetails</RaisedBy>
+	    <Number>502</Number>
+	    <Type>fatal</Type>
+	    <Text>Authorisation Failure</Text>
+	    <Location></Location>
+	  </Error>
+	</GovTalkErrors>
+  </GovTalkDetails>
+  <Body>
+  </Body>
+</GovTalkMessage>

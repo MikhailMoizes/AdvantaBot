@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <GetProjectResponse xmlns="http://streamline/">
+      <GetProjectResult>
+        <UID>111222</UID>
+        <ParentProjectId>222111</ParentProjectId>
+        <Name>Ещё один очень важный проект</Name>
+        <Status>1</Status>
+        <PercentComplete>75</PercentComplete>
+        <SystemStartDate>2022-03-01</SystemStartDate>
+        <SystemEndDate>2022-04-01</SystemEndDate>
+        <PlannedStartDate>2022-03-01</PlannedStartDate>
+        <PlannedEndDate>2022-05-01</PlannedEndDate>
+        <ActualStartDate>2022-03-01</ActualStartDate>
+        <ActualEndDate>2022-04-01</ActualEndDate>
+        <OwnerId>01123</OwnerId>
+        <ResponsibleId>011000</ResponsibleId>
+        <ResourceAssignments>
+          <ResourceAssignmentWrapper>
+            <PersonId>string</PersonId>
+            <Value>double</Value>
+          </ResourceAssignmentWrapper>
+          <ResourceAssignmentWrapper>
+            <PersonId>string</PersonId>
+            <Value>double</Value>
+          </ResourceAssignmentWrapper>
+        </ResourceAssignments>
+      </GetProjectResult>
+    </GetProjectResponse>
+  </soap:Body>
+</soap:Envelope>
